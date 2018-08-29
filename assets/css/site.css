@@ -69,3 +69,38 @@ tr.info > th {
 table.schedule tr:nth-child(even) {
   background-color: #f2f2f2
 }
+th.date {
+  min-width: 30px;
+  width: 30px;
+  max-width: 30px;
+}
+th.presenter {
+  min-width: 90px;
+  width: 90px;
+  max-width: 90px;
+}
+th.title {
+  min-width: 400px;
+  width: 400px;
+  max-width: 400px;
+}
+th.conference {
+  min-width: 80px;
+  width:80px;
+  max-width: 80px;
+}
+th.material {
+  min-width: 50px;
+  width:50px;
+  max-width: 50px;
+}
+td p.title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+td p.authors {
+  font-style: italic;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
