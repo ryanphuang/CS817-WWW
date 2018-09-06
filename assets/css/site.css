@@ -75,9 +75,9 @@ th.date {
   max-width: 30px;
 }
 th.presenter {
-  min-width: 90px;
-  width: 90px;
-  max-width: 90px;
+  min-width: 120px;
+  width: 120px;
+  max-width: 120px;
 }
 th.title {
   min-width: 400px;
