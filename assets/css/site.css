@@ -14,11 +14,31 @@ a {
   color: #18bc9c;
   text-decoration: none;
 }
-ul {
-  padding: 5px;
+li.current-semester a {
+  color: #3498db;
+  text-decoration: none;
 }
 .semester {
   color: #3498db;
+}
+ul.semesters {
+  list-style: none;
+  margin-left: 0;
+  padding: 5px;
+  text-indent: -1.2em;
+}
+ul.semesters li.current-semester:before {
+  content: "\2023";
+  display: block;
+  float: left;
+  width: 1.2em;
+  color: #3498db; 
+}
+ul.semesters li:before {
+  content: "\2022";
+  display: block;
+  float: left;
+  width: 1.2em;
 }
 .header {
   border: 0px;
