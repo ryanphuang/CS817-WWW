@@ -18,6 +18,10 @@ li.current-semester a {
   color: #3498db;
   text-decoration: none;
 }
+li{
+  margin-top: 10px;
+  border:1px solid grey;
+}
 .semester {
   color: #3498db;
 }
