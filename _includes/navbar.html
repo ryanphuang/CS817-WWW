@@ -1,10 +1,11 @@
 <ul class="semesters">
-  <li class="current-semester"><a href="#">Fall 2020</a></li>
-  <li><a href="https://www.cs.jhu.edu/~huang/cs817/spring20/">Spring 2020</a></li>
-  <li><a href="https://www.cs.jhu.edu/~huang/cs817/fall19/">Fall 2019</a></li>
-  <li><a href="https://www.cs.jhu.edu/~huang/cs817/spring19/">Spring 2019</a></li>
-  <li><a href="https://www.cs.jhu.edu/~huang/cs817/fall18/">Fall 2018</a></li>
-  <li><a href="https://www.cs.jhu.edu/~huang/cs817/summer18/">Summer 2018</a></li>
-  <li><a href="https://www.cs.jhu.edu/~huang/cs817/spring18/">Spring 2018</a></li>
-  <li><a href="https://www.cs.jhu.edu/~huang/cs817/fall17/">Fall 2017</a></li>
+  {% assign url_prefix = "https://www.cs.jhu.edu/~huang/cs817" %}
+  {% if site.semester == "Fall 2020" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall20">Fall 2020</a></li>
+  {% if site.semester == "Spring 2020" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring20">Spring 2020</a></li>
+  {% if site.semester == "Fall 2019" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall19">Fall 2019</a></li> 
+  {% if site.semester == "Spring 2019" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring19">Spring 2019</a></li> 
+  {% if site.semester == "Fall 2018" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall18">Fall 2018</a></li> 
+  {% if site.semester == "Summer 2018" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/summer18">Summer 2018</a></li> 
+  {% if site.semester == "Spring 2018" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring18">Spring 2018</a></li> 
+  {% if site.semester == "Fall 2017" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall17">Fall 2017</a></li>
 </ul>
