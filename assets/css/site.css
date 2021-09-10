@@ -95,28 +95,23 @@ table.schedule tr:nth-child(even) {
 }
 th.date {
   min-width: 30px;
-  width: 30px;
-  max-width: 30px;
+  width: 5%;
 }
 th.presenter {
-  min-width: 120px;
-  width: 120px;
-  max-width: 120px;
+  min-width: 90px;
+  width: 9%;
 }
 th.title {
   min-width: 400px;
-  width: 400px;
-  max-width: 400px;
+  width: 71%;
 }
 th.conference {
-  min-width: 100px;
-  width:100px;
-  max-width: 100px;
+  min-width: 90px;
+  width: 9%;
 }
 th.material {
-  min-width: 80px;
-  width:80px;
-  max-width: 80px;
+  min-width: 60px;
+  width: 6%;
 }
 td p.title {
   font-weight: bold;
