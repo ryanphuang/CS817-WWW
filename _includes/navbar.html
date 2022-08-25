@@ -1,5 +1,6 @@
 <ul class="semesters">
   {% assign url_prefix = "https://www.cs.jhu.edu/~huang/cs817" %}
+  {% if site.semester == "Fall 2022" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall22">Fall 2022</a></li>
   {% if site.semester == "Summer 2022" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/summer22">Summer 2022</a></li>
   {% if site.semester == "Spring 2022" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/spring22">Spring 2022</a></li>
   {% if site.semester == "Fall 2021" %}<li class="current-semester">{% else %}<li>{% endif %}<a href="{{ url_prefix }}/fall21">Fall 2021</a></li>
